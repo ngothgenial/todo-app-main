@@ -1,0 +1,174 @@
+body {
+    background-color: hsl(230, 17%, 14%);
+}
+
+.bg-one {
+    height: 250px;
+    background-image: url(images/bg-desktop-dark.jpg);
+    padding-top: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bg-two {
+    background-color: hsl(235, 21%, 11%);
+}
+
+.main-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.head-box {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    width: 500px;
+    margin-bottom: 15px;
+}
+
+.brand {
+    font-weight: bold;
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+
+
+}
+
+.icon {
+    margin-left: 330px;
+}
+
+
+
+
+
+
+.box-one {
+    width: 500px;
+    height: 50px;
+    background-color: hsl(235, 24%, 19%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+
+.form-check-input {
+    background-color: transparent;
+    outline: none;
+}
+
+.text-input {
+    float: right;
+    width: 450px;
+    border-style: none;
+    background-color: transparent;
+    color: hsl(233, 11%, 84%);
+    padding-left: 5px;
+
+}
+
+.box-two {
+    width: 500px;
+    background-color: hsl(235, 24%, 19%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 15px 5px;
+
+}
+
+
+
+
+.box-Todo {
+    width: 500px;
+    height: 50px;
+    background-color: hsl(235, 24%, 19%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.todo-box {
+    border-bottom: 1px hsl(233, 14%, 35%) solid;
+
+}
+
+.logo {
+    margin-left: auto;
+
+}
+
+.todo-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+}
+
+.text {
+    margin-left: 10px;
+    color: hsl(236, 9%, 61%);
+    font-size: initial;
+}
+
+
+
+
+
+
+
+.last-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    font-size: small;
+    text-align: center;
+    height: auto;
+}
+
+li {
+    display: inline-block;
+    /* padding: Opx 10px; */
+
+}
+
+li,
+a {
+    text-decoration: none;
+    margin: 6px 1px;
+    padding-top: 10px;
+}
+
+
+.color-gray {
+    color: hsl(235, 19%, 35%);
+    font-weight: bold;
+    font-size: smaller;
+    cursor: pointer;
+}
+
+
+
+/* Footer label */
+.h6 {
+    color: hsl(235, 19%, 35%);
+    font-weight: bold;
+    font-size: x-small;
+    margin: 10px 0px;
+}
